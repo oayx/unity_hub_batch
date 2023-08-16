@@ -123,6 +123,57 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &490125135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 490125137}
+  - component: {fileID: 490125136}
+  m_Layer: 0
+  m_Name: Font (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &490125136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490125135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e113b82c0c597b4ea5555d7afd23734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  FontSize: 20
+  FontColor: {r: 1, g: 1, b: 1, a: 1}
+  _name: "\u540D\u5B57123456"
+  ProgressWidth: 2
+  ProgressHeight: 0.2
+  ProgressYOffset: 0.6
+  _progress: 1
+--- !u!4 &490125137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490125135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &678436799
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +209,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -241,7 +292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122978747}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -259,12 +310,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e113b82c0c597b4ea5555d7afd23734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  str: Hello World
-  fontSize: 40
-  outWidth: 5
-  fontColor: {r: 1, g: 1, b: 1, a: 1}
-  outColor: {r: 0, g: 0, b: 0, a: 1}
+  NameFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  FontSize: 20
+  FontColor: {r: 1, g: 1, b: 1, a: 1}
+  _name: "\u540D\u5B57123"
+  ProgressWidth: 2
+  ProgressHeight: 0.2
+  ProgressYOffset: 0.6
+  _progress: 1
 --- !u!1 &1719058044
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,9 +395,60 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719058044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -100}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2123759082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2123759084}
+  - component: {fileID: 2123759083}
+  m_Layer: 0
+  m_Name: Font (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2123759083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123759082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e113b82c0c597b4ea5555d7afd23734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  FontSize: 20
+  FontColor: {r: 1, g: 1, b: 1, a: 1}
+  _name: "\u540D\u79F0123abc"
+  ProgressWidth: 2
+  ProgressHeight: 0.2
+  ProgressYOffset: 0.6
+  _progress: 1
+--- !u!4 &2123759084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123759082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
