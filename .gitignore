@@ -7797,3 +7797,10 @@ unity_hud/Assembly-CSharp.csproj
 unity_hud/.vs/unity_hud/v17/.suo
 unity_hud/.vs/unity_hud/FileContentIndex/read.lock
 unity_hud/.vs/unity_hud/FileContentIndex/f78775ef-24f2-4620-83db-b00417bdf770.vsidx
+/unity_hud/obj
+/unity_hud/Library
+/unity_hud/Logs
+/unity_hud/.vs
+/unity_hud/.vsconfig
+/unity_hud/Assembly-CSharp.csproj
+/unity_hud/unity_hud.sln
